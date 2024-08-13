@@ -1,6 +1,6 @@
-name: "PR Review Apps on fly.io"
+name: "PR Review Apps with secrets on fly.io"
 description: "Deploy temporary apps from pull requests on Fly.io"
-author: Fly
+author: ravisawlani
 branding:
   icon: "upload-cloud"
   color: "purple"
@@ -9,7 +9,7 @@ runs:
   image: "Dockerfile"
 inputs:
   name:
-    description: Fly app name
+    description: Fly.io app name
   image:
     description: Optional pre-existing Docker image to use
   config:
